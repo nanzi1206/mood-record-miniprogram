@@ -4,21 +4,32 @@
     "pages/list/list"
   ],
   "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "心情记录",
-    "navigationBarBackgroundColor": "#ffffff"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#666666",
     "selectedColor": "#1890ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "记心情"
+        "text": "记心情",
+        "iconPath": "images/tab/home.png",
+        "selectedIconPath": "images/tab/home-active.png"
       },
       {
         "pagePath": "pages/list/list",
-        "text": "历史"
+        "text": "历史",
+        "iconPath": "images/tab/history.png",
+        "selectedIconPath": "images/tab/history-active.png"
       }
     ]
-  }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }
