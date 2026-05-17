@@ -1,0 +1,42 @@
+.container {
+    padding: 30rpx;
+  }
+  
+  .title {
+    font-size: 36rpx;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40rpx;
+  }
+  
+  .empty {
+    text-align: center;
+    color: #999;
+    margin-top: 200rpx;
+  }
+  
+  .record-item {
+    border: 1rpx solid #eee;
+    border-radius: 10rpx;
+    padding: 20rpx;
+    margin-bottom: 20rpx;
+  }
+  
+  .mood {
+    font-size: 28rpx;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10rpx;
+  }
+  
+  .note {
+    font-size: 26rpx;
+    color: #333;
+    display: block;
+    margin-bottom: 10rpx;
+  }
+  
+  .date {
+    font-size: 24rpx;
+    color: #666;
+  }
