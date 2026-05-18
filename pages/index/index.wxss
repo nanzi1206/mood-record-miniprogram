@@ -1,0 +1,166 @@
+.container {
+    padding: 30rpx;
+  }
+  
+  .title {
+    font-size: 36rpx;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 40rpx;
+  }
+  
+  .mood-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20rpx;
+    margin-bottom: 60rpx;
+  }
+  
+  .mood-options button {
+    width: 40%;
+    margin: 10rpx 0;
+  }
+  
+  .note-section textarea {
+    width: 100%;
+    height: 200rpx;
+    border: 1rpx solid #eee;
+    padding: 20rpx;
+    border-radius: 10rpx;
+    margin-bottom: 30rpx;
+  }
+  
+  .save-btn {
+    background-color: #1890ff;
+    color: white;
+  }
+  /* pages/index/index.wxss */
+.container {
+    padding: 40rpx 30rpx;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 48rpx;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40rpx;
+    color: #333;
+  }
+  
+  .mood-section {
+    margin-bottom: 40rpx;
+  }
+  
+  .label {
+    font-size: 32rpx;
+    color: #666;
+    display: block;
+    margin-bottom: 20rpx;
+  }
+  
+  .mood-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mood-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rpx;   /* 表情和文字之间的间距 */
+    /* 其余原有样式保持不变 */
+  }
+  
+  .mood-emoji {
+    font-size: 36rpx;  /* 表情稍微比文字大一点 */
+  }
+  
+  .mood-label {
+    font-size: 32rpx;
+  }
+  
+  .mood-item.active {
+    background-color: #ff9f4a;
+    color: white;
+  }
+  
+  /* 可编辑的输入框 */
+  .thought-input {
+    width: 100%;
+    min-height: 200rpx;
+    background-color: #fff;
+    border-radius: 16rpx;
+    padding: 24rpx;
+    font-size: 32rpx;
+    box-sizing: border-box;
+    margin-bottom: 40rpx;
+    border: 1rpx solid #eee;
+  }
+  
+  .save-btn {
+    background-color: #07c160;
+    color: white;
+    border-radius: 48rpx;
+    margin-bottom: 40rpx;
+    font-size: 34rpx;
+  }
+  
+  .history-title {
+    font-size: 36rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+    padding-bottom: 10rpx;
+    border-bottom: 2rpx solid #eee;
+  }
+  
+  .record-item {
+    background-color: white;
+    border-radius: 20rpx;
+    padding: 24rpx;
+    margin-bottom: 20rpx;
+    box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.02);
+  }
+  
+  .record-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12rpx;
+  }
+  
+  .mood-text {
+    font-size: 30rpx;
+    font-weight: 500;
+    color: #ff9f4a;
+  }
+  
+  .delete-btn {
+    font-size: 26rpx;
+    color: #999;
+    padding: 8rpx 16rpx;
+    background-color: #f5f5f5;
+    border-radius: 30rpx;
+  }
+  
+  .thought-text {
+    font-size: 28rpx;
+    color: #333;
+    margin-bottom: 12rpx;
+    line-height: 1.5;
+  }
+  
+  .time-text {
+    font-size: 24rpx;
+    color: #aaa;
+  }
+  
+  .empty {
+    text-align: center;
+    color: #bbb;
+    padding: 80rpx 0;
+    font-size: 28rpx;
+  }
