@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/list/list"
+    "pages/calendar/calendar"
   ],
   "window": {
-    "navigationBarTitleText": "心情记录",
+    "navigationBarTitleText": "心情打卡",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "tabBar": {
@@ -13,11 +13,11 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "记心情"
+        "text": "打卡"
       },
       {
-        "pagePath": "pages/list/list",
-        "text": "历史"
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历"
       }
     ]
   }

@@ -1,0 +1,54 @@
+<!-- 心情选择 -->
+<view class="emo-box">
+  <view 
+    class="emo-item {{current === '开心' ? 'active' : ''}}" 
+    data-emo="开心" 
+    bindtap="setEmo"
+  >
+    😊 开心
+  </view>
+  <view 
+    class="emo-item {{current === '平静' ? 'active' : ''}}" 
+    data-emo="平静" 
+    bindtap="setEmo"
+  >
+    😐 平静
+  </view>
+  <view 
+    class="emo-item {{current === '难过' ? 'active' : ''}}" 
+    data-emo="难过" 
+    bindtap="setEmo"
+  >
+    😢 难过
+  </view>
+  <view 
+    class="emo-item {{current === '烦躁' ? 'active' : ''}}" 
+    data-emo="烦躁" 
+    bindtap="setEmo"
+  >
+    😤 烦躁
+  </view>
+</view>
+
+<!-- 输入框 -->
+<view class="input-box">
+  <textarea 
+    value="{{text}}" 
+    bindinput="onInput" 
+    placeholder="写下今天的心情..."
+    maxlength="200"
+  ></textarea>
+</view>
+
+<!-- 保存按钮 -->
+<button bindtap="save" type="primary">打卡保存</button>
+
+<!-- 历史记录 -->
+<view class="record-title">历史打卡</view>
+<view class="record-list">
+  <view class="record-item" wx:for="{{records}}" wx:key="index">
+    <view>📅 {{item.date}}</view>
+    <view>😊 心情：{{item.mood}}</view>
+    <view>✍️ {{item.content}}</view>
+  </view>
+</view>
